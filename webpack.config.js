@@ -14,7 +14,8 @@ module.exports = {
         extensions: ['.ts', '.tsx']
     },
     externals: {
-        react: 'react'
+        react: 'react',
+        'debug': 'commonjs debug'
     },
     module: {
         rules: [
