@@ -7,7 +7,7 @@ interface ChatMessage {
     message: string;
 }
 
-const socket = io('http://localhost:5000', {
+const socket = io('https://back-psi-brown.vercel.app', {
     path: '/api/socket.io',
 });
 
