@@ -7,9 +7,6 @@ interface ChatMessage {
     message: string;
 }
 
-// const socket = io('https://back-psi-brown.vercel.app', {
-//     path: '/api/socket.io',
-// });
 const socket = io('https://back-psi-brown.vercel.app', {
     path: '/api/socket.io',
 });
