@@ -7,5 +7,4 @@ export {
     MyInput,
     SocketConnect
 }
-//1 комит
-/// 2 комит
+// test 1
